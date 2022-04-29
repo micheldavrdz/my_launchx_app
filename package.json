@@ -1,0 +1,28 @@
+{
+  "name": "my_launchx_app",
+  "version": "1.0.0",
+  "description": "LaunchX NodeJS test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micheldavrdz/my_launchx_app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "launchx",
+    "javascript"
+  ],
+  "author": "Michel Dávila Rdz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micheldavrdz/my_launchx_app/issues"
+  },
+  "homepage": "https://github.com/micheldavrdz/my_launchx_app#readme",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
+}
